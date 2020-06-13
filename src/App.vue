@@ -74,6 +74,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-align: center;
   }
 
   button, input[type=text] {
@@ -133,8 +134,11 @@
 
 <style scoped>
   #app {
+    margin: auto;
     display: flex;
     flex-direction: column;
+    max-width: 36rem;
+    box-shadow: 0 0 .5em #bfbfbf;
   }
   .top-bar {
     width: 100%;
@@ -164,6 +168,6 @@
     border-bottom: .05em solid #bfbfbf;
   }
   .dice-item:last-child {
-    margin-bottom: 50vh;
+    margin-bottom: 20vh;
   }
 </style>
